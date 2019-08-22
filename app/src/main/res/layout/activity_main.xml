@@ -9,13 +9,14 @@
 
     <TextView
             android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:text="Hello World!"
+            android:layout_height="16dp"
+            android:text="@string/Boxone"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"
             app:layout_constraintTop_toTopOf="parent" android:layout_marginTop="@dimen/magin_wite"
             android:layout_marginLeft="@dimen/magin_wite"
             android:layout_marginRight="@dimen/magin_wite"
-    />
+            android:fontFamily="@font/roboto_thin" android:textSize="@dimen/box_text_size"
+            style="@style/whiteBox" android:id="@+id/BonOneText"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
